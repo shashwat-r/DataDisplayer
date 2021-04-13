@@ -1,0 +1,21 @@
+.acts {
+  float: left;
+  width: 30%;
+}
+
+.point {
+  float: left;
+  clear: left;
+}
+
+.acts h3 {
+  float: left;
+  clear: left;
+}
+
+.subpoint {
+  float: left;
+  width: 60%;
+  border-left: none;
+  display: none;
+}

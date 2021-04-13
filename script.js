@@ -31,8 +31,10 @@ function loadData() {
   for (var actName of Object.keys(data)) {
     var points = data[actName];
 
-    var heading = document.createElement("h3");
+    var heading = document.createElement("button");
     heading.innerHTML = actName;
+    heading.className = "act";
+    heading.onmouseover = openSubpoint;
     acts.appendChild(heading);
 
     for (var pointName of Object.keys(points)) {
